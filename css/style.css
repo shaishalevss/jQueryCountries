@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    text-align: center;
+    background-image: url('images/world_map.jpg');
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Timmana', sans-serif;
+}
+#ctr {
+    width:450px;
+    margin:0 auto;
+}
+.centered,.imgCtr{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-inline{
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 0 10px;
+    /* background: rgb(6, 179, 127); */
+    font-family: 'Original Surfer', cursive;
+    color: white;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+img{
+    width:100%;
+}
+p,img{
+    margin-top: 10px;
+}
+.klum{
+    border: black dashed 1px;
+    width: 100%;
+}
+.inputText {
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+.inputText2 {
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+.inputText3 {
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+select {
+    font-family: 'Original Surfer', cursive;
+}
+.bottomCtr {
+    background: rgba(220, 220, 220, 0.35);
+}
+.title{
+    font-weight: 800;
+    color: transparent;
+    font-size:120px;
+    background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+    text-align:center;
+  }
